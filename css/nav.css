@@ -1,0 +1,27 @@
+.header {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {}
