@@ -11,6 +11,11 @@
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(1, 1fr);
+    margin: 0 5%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -38,7 +43,6 @@
 .main-container:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 .title-container {
     display: flex;

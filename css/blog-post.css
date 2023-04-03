@@ -1,0 +1,39 @@
+@import "header.css";
+@import "footer.css";
+
+.header-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.main {
+    margin: 0 15%;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.author {
+    font-weight: 800;
+}
+
+.date {
+    color: #8f95a3;
+}
+
+.content {
+    text-align: left;
+    font-size: 18px;
+}

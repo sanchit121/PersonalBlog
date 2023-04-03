@@ -1,1 +1,1 @@
-This is Readme file. We can update it later.
+This is first project of Udacity Frontend Nanodegree challenge.
