@@ -1,0 +1,26 @@
+.main {
+    margin: 0 15%;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.date {
+    color: #8f95a3;
+}
+
+.content {
+    text-align: left;
+    font-size: 18px;
+}
