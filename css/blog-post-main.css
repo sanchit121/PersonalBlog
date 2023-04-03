@@ -24,3 +24,60 @@
     text-align: left;
     font-size: 18px;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.author-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+
+@media (min-width:901px) {
+    .author-info {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.author-content {
+    gap: 20px;
+}
