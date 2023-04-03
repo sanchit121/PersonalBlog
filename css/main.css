@@ -1,1 +1,57 @@
 @import "nav.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.sub-header-text {
+    font-size: 18px;
+    color: black;
+}
+
+.author-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8f95a3;
+}
+
+.tag-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag {
+    color: white;
+    background-color: #8f95a3;
+    height: 32px;
+    padding: 12px 16px 0 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
